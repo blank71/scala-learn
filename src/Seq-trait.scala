@@ -238,8 +238,5 @@ object SeqTrait {
         }
       )
     }
-    {
-      section("", () => {})
-    }
   }
 }
