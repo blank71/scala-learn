@@ -1,4 +1,4 @@
-//> using dep "org.scala-lang.modules::scala-parallel-collections:1.1.0"
+//> using dep "org.scala-lang.modules::scala-parallel-collections:1.2.0"
 import scala.collection.parallel.CollectionConverters._
 
 object Par {
