@@ -1,0 +1,87 @@
+@phdthesis{item_6dd02f9b1f9b4c9c9748ddf1634c1630,
+  address      = {Lausanne},
+  title        = {Scalable Metaprogramming in Scala 3},
+  url          = {https://infoscience.epfl.ch/handle/20.500.14299/193908},
+  doi          = {10.5075/epfl-thesis-8257},
+  abstractnote = {A metaprogrammer should be able to reason about the semantics of the generated code.
+                  Multi-stage programming introduced an elegant and powerful solution to this problem.
+                  It follows a semantically driven approach to code generation, where semantics are fully defined by the metaprogram and cannot accidentally change when we generate the code.
+                  This implies that the generated code is well typed and hygienic by construction.
+                  We can apply this principled semantic approach to other metaprogramming abstractions.
+                  However, different metaprogramming abstractions have different levels of expressiveness.
+                  Usually, the more expressive abstractions are more complex and give fewer static guarantees.
+                  It is hard or impossible to find a single abstraction that is both simple and fully expressive.
+                  Instead of choosing a single abstraction, we can design a single system out of several abstractions that scale with respect to expressiveness and complexity.
+                  We must be careful with the most expressive metaprogramming abstractions, as they may expose parts of the compiler or of its code representations, which hinders portability.
+                  We demonstrate that it is possible to design, implement and use in production a Portable Scalable Semantically Driven Metaprogramming System.},
+  school       = {EPFL},
+  author       = {Stucki, Nicolas Alexander},
+  year         = {2023},
+  keywords     = {metaprogramming | macros | multi-stage programming | inlining | formalization | virtual algebraic data types | Scala},
+  language     = {en}
+}
+@inproceedings{10.1145/2489837.2489840,
+  author    = {Burmako, Eugene},
+  title     = {Scala macros: let our powers combine! on how rich syntax and static types work with metaprogramming},
+  year      = {2013},
+  isbn      = {9781450320641},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/2489837.2489840},
+  doi       = {10.1145/2489837.2489840},
+  abstract  = {Compile-time metaprogramming has been proven immensely useful enabling programming techniques such as language virtualization, embedding of external domain-specific languages, self-optimization, and boilerplate generation among many others.In the recent production release of Scala 2.10 we have introduced macros, an experimental facility which gives its users compile-time metaprogramming powers. Alongside of the mainline release of Scala Macros, we have also introduced other macro flavors, which provide their users with different interfaces and capabilities for interacting with the Scala compiler.In this paper, we show how the rich syntax and static types of Scala synergize with macros, through a number of real case studies using our macros (some of which are production systems) such as language virtualization, type providers, materialization of type class instances, type-level programming, and embedding of external DSLs. We explore how macros enable new and unique ways to use pre-existing language features such as implicits, dynamics, annotations, string interpolation and others, showing along the way how these synergies open up new ways of dealing with software development challenges.},
+  booktitle = {Proceedings of the 4th Workshop on Scala},
+  articleno = {3},
+  numpages  = {10},
+  keywords  = {type classes, domain-specific languages, compile-time metaprogramming, Scala},
+  location  = {Montpellier, France},
+  series    = {SCALA '13}
+}
+@online{scalalangMacros,
+  author  = {Burmako, Eugene},
+  title   = {{Macros}},
+  url     = {https://docs.scala-lang.org/overviews/macros/usecases.html},
+  urldate = {2025-01-18}
+}
+@online{scalalang3Macros,
+  title   = {{Macros in Scala 3}},
+  url     = {https://docs.scala-lang.org/scala3/guides/macros/},
+  urldate = {2025-01-18}
+}
+@online{scala3Metaprogramming,
+  title   = {Metaprogramming},
+  url     = {https://docs.scala-lang.org/scala3/reference/metaprogramming/index.html},
+  urldate = {2025-01-18}
+}
+@online{scalalangMacrosJa,
+  author  = {Burmako, Eugene
+             and Eugene Yokota},
+  title   = {{Macros}},
+  url     = {https://docs.scala-lang.org/ja/overviews/macros/usecases.html},
+  urldate = {2025-01-18}
+}
+@online{eed3si9nScala3Macro,
+  author = {Eugene Yokota},
+  title  = {{S}cala 3 マクロ入門},
+  url    = {https://eed3si9n.com/ja/intro-to-scala-3-macros/},
+  year   = {2021},
+  note   = {2025-01-18}
+}
+@online{eed3si9nYT,
+  title        = {自由、平等、ボックス化されたプリミティブ型 by Eugene Yokota (eed3si9n)},
+  howpublished = {\url{https://www.youtube.com/watch?v=V8QR92XciTc}},
+  year         = {2020},
+  note         = {2025-01-18}
+}
+@online{334ef1c6255588,
+  title = {Scala 3 で型安全にコンパイルタイムマクロを書く.},
+  url   = {https://zenn.dev/110416/articles/334ef1c6255588},
+  date  = {2021-12-05},
+  note  = {2025-01-18}
+}
+@online{taro,
+  title = {あらゆるプログラミング言語の最先端を行くScala 3のマクロ},
+  url   = {https://tarao.hatenablog.com/entry/scala3-multi-stage},
+  date  = {2023-12-11},
+  note  = {2025-01-18}
+}

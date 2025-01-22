@@ -1,6 +1,7 @@
-Scala のコレクションに関する勉強を行ったので成果物を公開する。スライドは [ここ](./slide/slide.pdf) から参照することができる。
+# Scala コレクション
+- Scala のコレクションに関する勉強を行ったので成果物を公開する。スライドは [ここ](./slide/slide.pdf) から参照することができる。
 
-# 参考文献
+## 参考文献
 - Scalaスケーラブルプログラミング 第4版
   - https://book.impress.co.jp/books/1119101190
 - https://docs.scala-lang.org/ja/overviews/collections/introduction.html
@@ -13,6 +14,9 @@ Scala のコレクションに関する勉強を行ったので成果物を公�
   - Scalaスケーラブルプログラミングはこれを訳したものと考えてよい
   - Scala3 のコードが掲載されているが、部分的に関数スタイルのコードが撤廃されている
 
+# Scala インライン
+- Scala のメタプログラミングの要素の 1 つであるインラインについて調査した。レポートは [ここ](./report/report.pdf) から参照することができる。
+
 # exec from scala-cli
 
 - `--server=false` を付けないと実行時にエラーを吐いてしまうため、設定している。
@@ -24,6 +28,8 @@ scala-cli run . --server=false --main-class Par
 scala-cli run . --server=false --main-class SeqTrait
 scala-cli run . --server=false --main-class SetTrait
 scala-cli run . --server=false --main-class MiscTrait
+scala-cli run . --server=false --main-class FactObj
+scala-cli run . --server=false --main-class InlineMatch
 ```
 
 # scala-cli version
